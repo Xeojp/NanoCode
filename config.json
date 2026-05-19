@@ -1,0 +1,102 @@
+{
+  "theme": {
+    "name": "Dark+",
+    "colors": {
+      "editor_bg": "#1E1E1E",
+      "editor_fg": "#D4D4D4",
+      "sidebar_bg": "#252526",
+      "activity_bar": "#3C3C3C",
+      "status_bar": "#007ACC",
+      "tab_active": "#1E1E1E",
+      "tab_inactive": "#2D2D2D",
+      "border": "#3C3C3C"
+    }
+  },
+  "window": {
+    "rounding": 4,
+    "border_width": 1,
+    "opacity": 1.0,
+    "position": { "x": 100, "y": 100 },
+    "size": { "width": 1280, "height": 720 }
+  },
+  "animations": {
+    "duration": 150,
+    "easing": "easeOutCubic",
+    "enabled": true,
+    "tab_switch": true,
+    "panel_slide": true,
+    "fade_speed": 3.0
+  },
+  "panels": {
+    "explorer": {
+      "visible": true,
+      "width": 250,
+      "dock": "left",
+      "auto_hide": false
+    },
+    "search": {
+      "visible": false,
+      "width": 300,
+      "dock": "right"
+    },
+    "git": {
+      "visible": true,
+      "width": 200,
+      "dock": "bottom"
+    },
+    "ai_assistant": {
+      "visible": true,
+      "width": 350,
+      "dock": "right",
+      "opacity": 0.95
+    }
+  },
+  "tabs": {
+    "height": 35,
+    "close_button": "top_right",
+    "new_button": "top_right",
+    "pinned_tabs": true,
+    "preview_tabs": true,
+    "dblclick_close": true
+  },
+  "editor": {
+    "font": {
+      "family": "Consolas",
+      "size": 14,
+      "ligatures": true,
+      "line_height": 1.4
+    },
+    "rendering": {
+      "smooth": true,
+      "minimap": true,
+      "glyph_margin": true,
+      "whitespace": "none"
+    },
+    "whitespace": {
+      "show": false,
+      "style": "dot",
+      "size": 1
+    }
+  },
+  "hotkeys": {
+    "command_palette": "Ctrl+P",
+    "quick_open": "Ctrl+T",
+    "toggle_sidebar": "Ctrl+B",
+    "toggle_terminal": "Ctrl+`",
+    "save": "Ctrl+S",
+    "find": "Ctrl+F",
+    "replace": "Ctrl+H",
+    "zen_mode": "F11",
+    "ai_assistant": "Ctrl+Shift+A",
+    "settings": "Ctrl+,",
+    "close_tab": "Ctrl+W",
+    "next_tab": "Ctrl+Tab",
+    "prev_tab": "Ctrl+Shift+Tab"
+  },
+  "layout": {
+    "activity_bar": "left",
+    "status_bar": "bottom",
+    "breadcrumbs": "hidden",
+    "panel_alignment": "justify"
+  }
+}

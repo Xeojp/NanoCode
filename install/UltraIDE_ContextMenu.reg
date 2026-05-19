@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\UltraIDE]
+@="Открыть в UltraIDE"
+"Icon"="C:\\Program Files\\UltraIDE\\UltraIDE.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\UltraIDE\command]
+@="\"C:\\Program Files\\UltraIDE\\UltraIDE.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\UltraIDE]
+@="Открыть папку в UltraIDE"
+"Icon"="C:\\Program Files\\UltraIDE\\UltraIDE.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\UltraIDE\command]
+@="\"C:\\Program Files\\UltraIDE\\UltraIDE.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\UltraIDE]
+@="Открыть в UltraIDE"
+"Icon"="C:\\Program Files\\UltraIDE\\UltraIDE.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\UltraIDE\command]
+@="\"C:\\Program Files\\UltraIDE\\UltraIDE.exe\" \"%V\""
