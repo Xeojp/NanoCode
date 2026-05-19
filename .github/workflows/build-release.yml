@@ -3,10 +3,10 @@ name: Build and Release
 on:
   push:
     tags:
-      - 'v*' # Триггер на теги, например v1.0.0
+      - 'v*' # Сработает, когда вы отправите тег вроде v0.0.3
 
 permissions:
-  contents: write # КРИТИЧЕСКИ ВАЖНО: разрешает создание релиза
+  contents: write # Дает право GitHub Actions создавать релиз и загружать файлы
 
 jobs:
   build:
@@ -15,9 +15,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Set up CMake
-        uses: lukka/get-cmake@v3
 
       - name: Configure CMake
         run: cmake -B build -S . -G "Visual Studio 17 2022" -A x64
