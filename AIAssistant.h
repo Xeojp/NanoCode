@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <memory>
-
+ 
 const std::string SYSTEM_PROMPT = R"(
 You are an AI coding assistant inside UltraIDE. Response rules:
 
